@@ -1,0 +1,15 @@
+#+title: Flakes
+#+author: James Leslie
+This flake contains all of my public github flakes as outputs. It means that I don't have to specify many inputs for my flakes, just this one! For my system flake, I have as an input:
+#+begin_src nix
+inputs.flakes.nix = github:jeslie0/flakes;
+#+end_src
+Then, if I want to use the swaybgchanger output for instance, I do something like this in my configuration.nix file:
+#+begin_src nix
+environment.systemPackages = with pkgs;
+  [ ...
+    self.inputs.flakes.swaybgchanger.defaultPackage.${system};
+    ...
+  ];
+
+#+end_src

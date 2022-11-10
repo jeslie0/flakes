@@ -26,6 +26,7 @@
     fonts = self.inputs.fonts;
     nix-cow = self.inputs.nix-cow;
     bemenuFocus = self.inputs.bemenuFocus;
+    passbemenu = self.inputs.passbemenu;
     swaybgchanger = self.inputs.swaybgchanger;
     julia-mandel = self.inputs.julia-mandel;
     texmf = self.inputs.texmf;
