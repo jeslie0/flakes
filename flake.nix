@@ -14,8 +14,8 @@
     julia-mandel.url = github:jeslie0/julia-mandel;
     texmf.url = github:jeslie0/texmf;
     swaylock-effects.url = github:jeslie0/swaylock-effects-git;
-    compdb = github:jeslie0/compdb;
-    mkElmDerivation = github:jeslie0/mkElmDerivation;
+    compdb.url = github:jeslie0/compdb;
+    mkElmDerivation.url = github:jeslie0/mkElmDerivation;
   };
 
   outputs = { self, ... }: {
