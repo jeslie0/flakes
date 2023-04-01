@@ -5,7 +5,6 @@
     dotfiles.url = github:jeslie0/.dotfiles;
     templates.url = github:jeslie0/flake-templates;
     spotifyd.url = github:jeslie0/spotifyd;
-    emacs-overlay.url = github:jeslie0/emacs-overlay;
     fonts.url = github:jeslie0/fonts;
     nix-cow.url = github:jeslie0/nix-cow;
     bemenuFocus.url = github:jeslie0/bemenuFocus;
@@ -24,7 +23,6 @@
     nixosConfigurations = self.inputs.dotfiles.nixosConfigurations;
 
     spotifyd = self.inputs.spotifyd;
-    emacs-overlay = self.inputs.emacs-overlay;
     fonts = self.inputs.fonts;
     nix-cow = self.inputs.nix-cow;
     bemenuFocus = self.inputs.bemenuFocus;
