@@ -2,7 +2,6 @@
   description = "A flake containing all of my public flakes.";
 
   inputs = {
-    dotfiles.url = github:jeslie0/.dotfiles;
     templates.url = github:jeslie0/flake-templates;
     spotifyd.url = github:jeslie0/spotifyd;
     fonts.url = github:jeslie0/fonts;
